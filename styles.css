@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.pagewrapper {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-family: "Sen", sans-serif;
+}
+header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(119, 112, 112);
+}
+header nav {
+  display: flex;
+  gap: 60px;
+}
+header nav a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Sen", sans-serif;
+}
+h1:first-letter {
+  margin-left: -5px;
+}
+header h1,
+#Featuredprojects h1 {
+  all: unset;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 0.65;
+  letter-spacing: -5px;
+}
+.underline {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(119, 112, 112);
+}
+.logo {
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+main {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(238, 132, 153);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Sen", sans-serif;
+  justify-content: space-between;
+}
+main h1 {
+  all: unset;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 0.65;
+  letter-spacing: -10px;
+}
+main .logo {
+  color: white;
+  gap: 10px;
+}
+main h1:first-letter {
+  margin-left: -10px;
+}
+main .underline {
+  background-color: white;
+}
+main h3 {
+  font-weight: 600;
+  line-height: 0.7;
+}
+main p {
+  text-align: center;
+  height: fit-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main button {
+  width: 150px;
+  height: 50px;
+  color: black;
+  font-family: "Sen", sans-serif;
+  border: none;
+}
+main button:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+main button:active {
+  background-color: rgb(55, 151, 151);
+  outline: 2px solid rgb(21, 85, 85);
+  scale: 0.9;
+  transition: 200ms;
+}
+#Featuredprojects {
+  color: rgb(119, 112, 112);
+}
+#Featuredprojects .logo {
+  gap: 30px;
+}
+#Featuredprojects .logo .underline {
+  width: 40px;
+  height: 10px;
+}
+.images {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+}
+.imgs {
+  width: 100%;
+  display: flex;
+}
